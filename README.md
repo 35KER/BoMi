@@ -1,3 +1,8 @@
+<<<<<<< HEAD
+# bomi
+
+A new Flutter project.
+=======
 # 🌿 BoMI: Borneo Medispa Intelligence App
 
 **An AI-Integrated Medispa Management App**
@@ -489,3 +494,4 @@ This project is developed for academic purposes as part of **TMA3084 Software En
   Borneo Medispa Intelligence App<br>
   <i>Smart. Simple. Intelligent.</i>
 </p>
+>>>>>>> origin/dev
