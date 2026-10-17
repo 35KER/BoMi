@@ -1,473 +1,75 @@
-<<<<<<< HEAD
-# bomi
-
-A new Flutter project.
-=======
 # 🌿 BoMI: Borneo Medispa Intelligence App
 
-**An AI-Integrated Medispa Management App**
+**AI-Integrated Inventory Management System**
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Flutter-3.13%2B-02569B?style=for-the-badge&logo=flutter&logoColor=white" alt="Flutter">
-  <img src="https://img.shields.io/badge/Dart-3.0%2B-0175C2?style=for-the-badge&logo=dart&logoColor=white" alt="Dart">
-  <img src="https://img.shields.io/badge/AI-Integrated-8A2BE2?style=for-the-badge" alt="AI Integrated">
+  <img src="https://img.shields.io/badge/Flutter-Mobile%20App-02569B?style=for-the-badge&logo=flutter&logoColor=white" alt="Flutter">
+  <img src="https://img.shields.io/badge/Supabase-Backend-3FCF8E?style=for-the-badge&logo=supabase&logoColor=white" alt="Supabase">
+  <img src="https://img.shields.io/badge/Google%20Gemini-AI-8A2BE2?style=for-the-badge" alt="Google Gemini">
   <img src="https://img.shields.io/badge/Status-In%20Development-F5A623?style=for-the-badge" alt="Status">
 </p>
 
 <p align="center">
   <b>Smart. Simple. Intelligent.</b><br>
-  A modern mobile management solution designed for Borneo Medispa.
+  Simplifying inventory management through intelligent technology.
 </p>
 
 ---
 
 ## 📖 About BoMI
 
-**BoMI** (Borneo Medispa Intelligence App) is an AI-integrated mobile application developed for **Borneo Medispa**.
+**BoMI (Borneo Medispa Intelligence App)** is an AI-integrated inventory management application developed for **Borneo Medispa's Miri branch, Sarawak, Malaysia**.
 
-The application aims to provide a centralized platform for managing medispa inventory, products, resources, and operational information while incorporating Artificial Intelligence to assist staff in making better use of available information.
+The application aims to simplify inventory operations by helping Spa Staff and Branch Managers manage products, track stock movements, monitor inventory levels, and make informed restocking decisions.
 
-BoMI combines conventional management features with an intelligent AI component to create a more efficient and user-friendly medispa management experience.
-
----
-
-## 🏢 Client
-
-**Borneo Medispa**
-
-Borneo Medispa is a medispa and beauty-care business providing facial, skincare, pigmentation, acne-related and other beauty treatment services.
-
-The business operates multiple locations, including locations in Sarawak such as **Kuching** and **Miri**.
-
-| | |
-|---|---|
-| **Client** | Borneo Medispa |
-| **Region** | Sarawak, Malaysia |
-| **System** | Mobile Application |
-
----
-
-## 🎯 Objectives
-
-BoMI aims to:
-
-- 📦 Centralize inventory and product management
-- 📊 Improve visibility of stock information
-- ⚠️ Assist staff in monitoring low-stock items
-- 🤖 Integrate AI-powered assistance
-- 🔍 Make inventory information easier to search and understand
-- 📱 Provide a modern and user-friendly mobile interface
-- 🔄 Reduce reliance on manual inventory management
-- 🤝 Support continuous client validation throughout development
-
----
+By combining conventional inventory management with AI-powered features, BoMI aims to improve inventory visibility, reduce manual data entry, and support more efficient stock management.
 
 ## ✨ Key Features
 
 ### 📦 Inventory Management
+- Add and update inventory products.
+- Record stock-in and stock-out transactions.
+- View and search current stock quantities.
+- Set minimum stock levels.
 
-- Add new inventory items
-- Update product information
-- Remove inventory items
-- Track stock quantities
-- Categorize products
-- Monitor stock status
+### ⚠️ Stock Monitoring
+- Identify low-stock items.
+- Receive low-stock alerts.
+- Track inventory movements and stock changes.
 
-### ⚠️ Smart Stock Monitoring
+### 🧾 BoMI Scan
+Uses AI to extract item and quantity details from supplier invoices and prepare draft stock-in entries for staff review and approval.
 
-- Low-stock indicators
-- Stock-level monitoring
-- Restocking information
-- Inventory alerts
+### 🤖 BoMI Insight
+Uses AI to analyse stock usage trends and provide replenishment recommendations to help Branch Managers make informed restocking decisions.
 
-### 🤖 AI Assistant
+### 📊 Inventory Reports
+Allows Branch Managers to review inventory levels and stock-in and stock-out totals for a selected period.
 
-BoMI integrates a **cloud-based Generative AI** feature to provide intelligent assistance.
+### 🔐 Role-Based Access
+Provides separate access permissions for Spa Staff and Branch Managers according to their responsibilities.
 
-Potential functionality includes:
+## 🎯 Project Objectives
 
-- Natural-language inventory queries
-- AI-powered inventory insights
-- Product and stock recommendations
-- Inventory summaries
-- Intelligent assistance for staff
+- Centralise inventory information.
+- Improve stock tracking and visibility.
+- Reduce manual invoice data entry.
+- Assist staff in identifying items requiring replenishment.
+- Support inventory decisions through AI-powered insights.
+- Improve inventory accountability and management efficiency.
 
-**Example interaction:**
+## 🛠️ Technologies
 
-> **User:**  
-> "Which products are currently low in stock?"
+- **Flutter & Dart** — Mobile application development.
+- **Supabase** — Backend services and database management.
+- **Google Gemini API** — AI-powered invoice extraction and inventory insights.
+- **Git & GitHub** — Version control and collaboration.
 
-> **BoMI AI:**  
-> "There are 4 products below the minimum stock level. Would you like to view the affected items?"
+## 👥 Development Team
 
-### 📊 Dashboard
+**Team 23:59**
 
-The dashboard provides an overview of:
-
-- Total inventory
-- Available stock
-- Low-stock items
-- Product categories
-- Important inventory information
-
-### 👤 User Management
-
-- Staff authentication
-- User profiles
-- Role-based access
-- Secure access to system features
-
----
-
-## 🧠 AI Integration
-
-AI is one of the core components of BoMI.
-
-The system will integrate a **cloud Generative AI API** to allow users to interact with relevant system information using natural language.
-
-```text
-┌──────────────────┐
-│     BoMI App     │
-└────────┬─────────┘
-         │
-         ▼
-┌──────────────────┐
-│   AI Assistant   │
-└────────┬─────────┘
-         │
-         ▼
-┌──────────────────┐
-│ Generative AI API│
-└────────┬─────────┘
-         │
-         ▼
-┌──────────────────┐
-│ AI Response /    │
-│ Recommendation   │
-└──────────────────┘
-```
-
-> The final AI functionality will be determined and validated based on the client's requirements.
-
----
-
-## 🛠️ Technology Stack
-
-| Category              | Technology                          |
-|-----------------------|-------------------------------------|
-| 📱 Frontend           | Flutter                             |
-| 💻 Language           | Dart                                |
-| ☁️ Backend            | Firebase / Supabase / REST API      |
-| 🗄️ Database           | Cloud Database                      |
-| 🤖 AI                 | Cloud Generative AI API             |
-| 🔧 Version Control    | Git & GitHub                        |
-| ⚙️ CI/CD              | GitHub Actions                      |
-| 🧪 Testing            | Flutter Test                        |
-| 🎨 UI/UX              | Flutter Material / Custom UI        |
-
----
-
-## 🏗️ System Architecture
-
-```text
-┌───────────────────────────────┐
-│        BoMI Mobile App        │
-│           Flutter             │
-└───────────────┬───────────────┘
-                │
-       ┌────────┴────────┐
-       │                 │
-       ▼                 ▼
-┌─────────────┐   ┌─────────────┐
-│   Backend   │   │  AI Service │
-│             │   │             │
-│ Firebase /  │   │ Generative  │
-│ Supabase    │   │ AI API      │
-└──────┬──────┘   └──────┬──────┘
-       │                 │
-       └────────┬────────┘
-                ▼
-       ┌─────────────────┐
-       │    BoMI Data    │
-       │   & Services    │
-       └─────────────────┘
-```
-
----
-
-## 📱 Planned Screens
-
-| Screen          | Description                  |
-|-----------------|------------------------------|
-| 🔐 Login        | User authentication          |
-| 🏠 Dashboard    | Overview of system information |
-| 📦 Inventory    | Manage inventory             |
-| ➕ Add Item     | Add new inventory            |
-| ✏️ Edit Item    | Update inventory             |
-| 🤖 AI Assistant | AI-powered assistance        |
-| 🔔 Notifications| Stock alerts                 |
-| 👤 Profile      | User information             |
-
----
-
-## 🎨 UI/UX Direction
-
-BoMI will use a clean, modern medispa-inspired aesthetic.
-
-**Design Principles**
-
-- Minimalist interface
-- Clean layouts
-- Soft visual appearance
-- Clear information hierarchy
-- Consistent typography
-- Intuitive navigation
-- Mobile-first design
-- Professional beauty & wellness aesthetic
-
----
-
-## 📂 Project Structure
-
-```text
-bomi/
-│
-├── android/
-├── ios/
-├── lib/
-│   │
-│   ├── core/
-│   │   ├── constants/
-│   │   ├── theme/
-│   │   └── utils/
-│   │
-│   ├── models/
-│   │
-│   ├── services/
-│   │   ├── ai/
-│   │   ├── auth/
-│   │   └── database/
-│   │
-│   ├── providers/
-│   │
-│   ├── screens/
-│   │   ├── auth/
-│   │   ├── dashboard/
-│   │   ├── inventory/
-│   │   ├── ai/
-│   │   └── profile/
-│   │
-│   ├── widgets/
-│   │
-│   └── main.dart
-│
-├── assets/
-│   ├── images/
-│   └── icons/
-│
-├── test/
-│
-├── .github/
-│   └── workflows/
-│
-├── pubspec.yaml
-├── .gitignore
-└── README.md
-```
-
----
-
-## 🔄 Development Process
-
-BoMI follows a structured Software Development Life Cycle (SDLC).
-
-```text
-Requirements
-     ↓
-System Analysis
-     ↓
-System Design
-     ↓
-Implementation
-     ↓
-Testing
-     ↓
-Client Validation
-     ↓
-Deployment
-     ↓
-Maintenance
-```
-
-Client feedback will be incorporated throughout the development process.
-
----
-
-## 🧪 Testing
-
-Testing will be performed throughout the development lifecycle.
-
-**Testing Types**
-
-- ✅ Unit Testing
-- ✅ Widget Testing
-- ✅ Integration Testing
-- ✅ Functional Testing
-- ✅ AI Feature Testing
-- ✅ Usability Testing
-- ✅ User Acceptance Testing (UAT)
-
-The project will work towards the testing and code-coverage requirements specified by **TMA3084 Software Engineering Lab**.
-
----
-
-## 🔀 GitHub Workflow
-
-The project uses GitHub for source-code management and software engineering process tracking.
-
-**Branch Structure**
-
-```text
-main
- │
- ├── develop
- │
- ├── feature/authentication
- ├── feature/inventory
- ├── feature/dashboard
- ├── feature/ai-assistant
- └── feature/notifications
-```
-
-**GitHub Practices**
-
-- Issues
-- Pull Requests
-- Code Reviews
-- Milestones
-- GitHub Projects
-- Feature Branches
-- Commit History
-- GitHub Actions
-- CI/CD Pipeline
-
----
-
-## 📅 Project Milestones
-
-| Milestone | Deliverables                                      |
-|-----------|---------------------------------------------------|
-| 🟢 **M1** | Proposal, SRS, Team Charter & Client Validation   |
-| 🟡 **M2** | SDD, Flutter Prototype & Initial AI Evidence      |
-| 🟠 **M3** | Functional App, AI Integration, Testing & CI/CD   |
-| 🔴 **M4** | Final App, Documentation, Demo & Client Acceptance|
-
----
-
-## 👥 Team
-
-| Member     | Role                          |
-|------------|-------------------------------|
-| 👤 Member 1 | Project Manager / Developer   |
-| 👤 Member 2 | System Analyst / Developer    |
-| 👤 Member 3 | UI/UX Designer / Developer    |
-| 👤 Member 4 | AI / Backend Developer        |
-| 👤 Member 5 | Testing / QA                  |
-
-> Replace the placeholders with the actual team members and assigned roles.
-
----
-
-## 🤝 Stakeholder Validation
-
-BoMI will maintain active communication with the client throughout the project.
-
-**Planned Validation Activities**
-
-- 📋 Requirements discussion
-- 📝 Scope confirmation
-- 🎨 Prototype feedback
-- 🧪 User Acceptance Testing
-- 🔍 System validation
-- ✍️ Final client acceptance
-
----
-
-## 📸 Screenshots
-
-| Screen | Preview |
-|--------|---------|
-| 🔐 Login | *Coming soon* |
-| 🏠 Dashboard | *Coming soon* |
-| 📦 Inventory | *Coming soon* |
-| 🤖 AI Assistant | *Coming soon* |
-
----
-
-## 🚀 Getting Started
-
-### Prerequisites
-
-Make sure the following are installed:
-
-- Flutter 3.13+
-- Dart 3.0+
-- Android Studio or Visual Studio Code
-- Git
-- GitHub account
-
-### Clone the Repository
-
-```bash
-git clone <repository-url>
-cd bomi
-```
-
-### Install Dependencies
-
-```bash
-flutter pub get
-```
-
-### Run the Application
-
-```bash
-flutter run
-```
-
-### Run Tests
-
-```bash
-flutter test
-```
-
----
-
-## 🔐 Security
-
-Sensitive information must **never** be committed to the repository.
-
-This includes:
-
-- API keys
-- AI credentials
-- Database credentials
-- Authentication secrets
-- Private configuration files
-
-Use environment variables or secure configuration methods where appropriate.
-
----
-
-## 📌 Project Status
-
-<p align="center">
-  <b>🚧 IN DEVELOPMENT</b><br>
-  BoMI is currently under active development as part of the<br>
-  <b>TMA3084 Software Engineering Lab</b> project.
-</p>
-
----
+Developed as part of the Software Engineering Lab project at Universiti Malaysia Sarawak (UNIMAS).
 
 ## 🎓 Academic Information
 
@@ -476,16 +78,13 @@ Use environment variables or secure configuration methods where appropriate.
 | **Course** | TMA3084 Software Engineering Lab |
 | **Programme** | Universiti Malaysia Sarawak (UNIMAS) |
 | **Semester** | Semester 1, 2026/2027 |
+| **Project** | BoMI — Borneo Medispa Intelligence App |
 
-This project is developed for academic purposes and follows the requirements and assessment criteria provided by the course.
+## 🚧 Project Status
 
----
+**Currently in Development**
 
-## 📄 License
-
-This project is developed for academic purposes as part of **TMA3084 Software Engineering Lab**.
-
-© 2026 BoMI Development Team
+BoMI is being developed to support inventory management at Borneo Medispa's Miri branch. Features and functionality are being developed and validated throughout the project.
 
 ---
 
@@ -494,4 +93,3 @@ This project is developed for academic purposes as part of **TMA3084 Software En
   Borneo Medispa Intelligence App<br>
   <i>Smart. Simple. Intelligent.</i>
 </p>
->>>>>>> origin/dev
