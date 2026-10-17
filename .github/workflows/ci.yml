@@ -1,4 +1,3 @@
-
 name: BoMI Flutter CI
 
 on:
@@ -10,7 +9,6 @@ permissions:
 
 jobs:
   flutter-ci:
-    name: Analyze and Test
     runs-on: ubuntu-latest
 
     steps:
@@ -26,8 +24,8 @@ jobs:
       - name: Install dependencies
         run: flutter pub get
 
-      - name: Analyze Flutter code
+      - name: Analyze code
         run: flutter analyze
 
-      - name: Run automated tests
+      - name: Run tests
         run: flutter test
